@@ -1,0 +1,54 @@
+Stundet name: Tee Yee Kang
+Student ID: 34315323
+
+Assignment 1 Evaluation
+
+1. This is a program that allowed user to read some data from a csv file and perform some different tasks with the data.
+   However, the user does not need to worries about the reading data part. It is because the program will automatically
+   read all the data from the file. 
+
+2. When the user execute the program, the program will first read all data and display a menu to allow the user
+   perform some tasks.
+
+3. After each tasks is completed, the program will execute the menu again. The program will continue execute until the user
+   enters option 5 to terminate the program.
+
+4. The options available to the user are options 1-5. However, if the user enters any number apart from 1-5, 
+   the program will display an error message to remind user then go back to the menu stage instead of crashing
+   the program.
+
+5. Option 1 allowed the user to find the average wind speed and average ambient air temperature for specific month and year. 
+   After the user enters the data he/she wish to find the result, the program will do the calculation and display the result
+   to the screen. 
+
+6. However, is the user entes a date which does not contains any record, the program will display "No data" message to inform the user.
+
+7. Option 2 allowed the user to find the average wind speed and average ambient aire temperature for each month of specific year. The program 
+   will prompt the user to enter the year he/she wish to find the result. After that, the program will do the calculatiom and display
+   the result for each month of the year to the screen.
+
+8. If there is any date which does not contains any data, the program will display "No data" for the corresponding month.
+
+9. Option 3 allowed the user to find the total solar radiation for each month of specific year. Similar to option 2, 
+   the program will prompt the user to enter the year he/she wish to find the result. After that, the program will do the 
+   calculatiom and display the result for each month of the year to the screen.
+
+10. similarly, if there is no data for a specific date, the program will display "No data" for the corresponding date.
+
+11. Option 4 allowed user to write some result of specific year to the csv file. After the program obtains the user's desire year,
+    the program will automatically write the result to the csv file.
+
+12. If there is no data for the year, the program will display 1 line of "No data" to the csv file with the year.
+
+13. All the require functions specified in the question are work in my program. 
+
+14. In addition, I also implement some of the validation check to improve the program. For example, invalid year, invaid time, leap year, invalid option,
+    file cannot open, non-numerical value entered in 
+    the menu stage.
+
+15. The test plan and output of test run in the word document contains all the test of all class (including Date class, Time class, Vector class,
+    WindLogInfo class and main.cpp)
+
+16. The output of test run is follow by the sequence of the test plan. For example, the output of test run no.1 is the program output of test no.1 in 
+    the test plan. 
+   
